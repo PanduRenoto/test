@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins';
+}
+
+.layout {
+    display: flex;
+}
+
+.layout-left {
+    width: 60%;
+    padding: 80px 120px;
+}
+
+.layout-right {
+    width: 40%;
+    background-image: url(ilustrasi.png);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.brand {
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 15px;
+    background: rgba(17, 63, 226, .1);
+    border-radius: 100px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    color: #113fe2;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 500px;
+    color: #0a1b59;
+}
+
+.lead {
+    width: 500px;
+    font-size: 16px;
+    color: rgba(10, 27, 89, .6);
+    line-height: 32px;
+}
+
+.invite-form {
+    display: flex;
+    margin-top: 40px;
+}
+
+.invite-form input {
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 1px solid rgba(10, 27, 89, .2);
+    height: 52px;
+}
+
+.invite-form button {
+    background-color: #113fe2;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+    flex-shrink: 0;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(10, 27, 89, .6);
+    margin-bottom: 55.5px;
+}
